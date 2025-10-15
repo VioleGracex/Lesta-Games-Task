@@ -58,8 +58,8 @@ def main():
     
     t1 = test_fifo(FIFODeque, n)
     t2 = test_fifo(FIFOStacks, n)
-    print(f"FIFOStacks {t1:.6f} секунд")
-    print(f"FIFODeque {t2:.6f} секунд")
+    print(f"FIFODeque {t1:.6f} секунд")
+    print(f"FIFOStacks {t2:.6f} секунд")
 
 if __name__ == "__main__":
     main()
